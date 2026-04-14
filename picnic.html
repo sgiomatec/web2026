@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi página con Picnic CSS</title>
   
-<link rel="stylesheet" href="">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+
   
   <style>
     .flex.demo{
      margin: .2em 0;
-     background: #2ecc40;
+     background: #dbe2dc;
      text-align: center;
     }
     .flex.demo div {
@@ -22,7 +24,7 @@
 <body>
   
 
-  <button id="musico">Ve por mi artista favorito</button>
+  <button id="un_boton">Haz algo</button>
   <div class="flex two four-1200 demo">
     <div id="bio">1</div>
     <div id="imagen">2</div>
@@ -37,21 +39,21 @@
 
     <script>
     
-    let biografia;
+    let un_boton;
 
     document.addEventListener("DOMContentLoaded", function() {
-         // biografia = document.getElementById();
+         // un_boton = document.getElementById();
          // document.getElementById().addEventListener("click", );
           //console.log("DOM listo");
     });
 
 
      async function obtenerJSON() {
-       // const respuesta = await fetch('https://www.theaudiodb.com/api/v1/json/123/search.php?s=');  
+       // const respuesta = await fetch('');  
        // const datos = await respuesta.json();
        // console.log(datos);
 
-        const textoArtista = document.createElement('p');
+        //const textoArtista = document.createElement('p');
         //textoArtista.textContent = 
         //biografia.appendChild(textoArtista);
 
